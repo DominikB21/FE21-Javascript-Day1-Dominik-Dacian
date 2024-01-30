@@ -2,7 +2,7 @@
 let cars = ["Tesla", "Audi", "Renault", "Volvo", "Mazda", "Fiat", "Ferrari"];
 console.log(cars.sort()); //sorts the array alphabeticly
 
-//Exercise 2
+//Exercise 2 ----------------------------------------------------------
 let fruits = ["apple", "banana", "kiwi", "mango", "pear"];
 console.log(fruits);
 
@@ -36,7 +36,7 @@ console.log(animals); // cat horse dog elephant
 animals.push("tiger"); //adds element at the end
 console.log(animals); // cat horse dog elephant tiger
 
-// Exercise 3
+// Exercise 3 -------------------------------------------------------
 
 let fruitsString = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon"
 console.log(fruitsString);
