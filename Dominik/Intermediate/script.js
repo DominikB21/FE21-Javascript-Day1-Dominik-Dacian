@@ -16,7 +16,7 @@ fruits.pop();
 fruits.unshift("apple");
 console.log(fruits); //apple banana kiwi mango pear
 
-fruits.splice(0,1,"strawberry");
+fruits.splice(0,1,"strawberry"); //repleces selected item
 console.log(fruits); //strawberry banana kiwi mango pear
 
 //-----------------------------------------------------------------
@@ -24,16 +24,16 @@ console.log(fruits); //strawberry banana kiwi mango pear
 let animals = ["monekey", "horse", "dog", "elephant", "giraffe"];
 console.log(animals);
 
-animals.shift();
+animals.shift(); //pulls off first element
 console.log(animals); //horse dog elephant giraffe
 
-animals.unshift("cat");
+animals.unshift("cat"); //adds element at the beginning
 console.log(animals); // cat horse dog elephant giraffe
 
-animals.pop();
+animals.pop(); //pulls off last element
 console.log(animals); // cat horse dog elephant
 
-animals.push("tiger");
+animals.push("tiger"); //adds element at the end
 console.log(animals); // cat horse dog elephant tiger
 
 // Exercise 3
