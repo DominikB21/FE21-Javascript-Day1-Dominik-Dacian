@@ -21,7 +21,7 @@ console.log(fruits); //strawberry banana kiwi mango pear
 
 //-----------------------------------------------------------------
 
-let animals = ["monekey", "horse", "dog", "elephant", "giraffe"];
+let animals = ["monkey", "horse", "dog", "elephant", "giraffe"];
 console.log(animals);
 
 animals.shift(); //pulls off first element
